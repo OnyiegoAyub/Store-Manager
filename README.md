@@ -1,4 +1,4 @@
-BUILD A PRODUCT: Store Manager
+# BUILD A PRODUCT: Store Manager
 
 Project Overview
 
