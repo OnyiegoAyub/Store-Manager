@@ -1,0 +1,268 @@
+body{
+  height: 100%;
+  background-color:#f1f1f1;
+}
+
+html {
+  height:100%;
+}
+
+.header {
+  /* border: 2px solid black; */
+  border-radius: 5px;
+  /* background-color: white; */
+  /* font-size: 35px; */
+  overflow: hidden;
+}
+
+.biz-name {
+  padding-left: 20px;
+  height: 70px;
+  font-size: 20px;
+  background-color: white;
+  text-align: left;
+
+}
+
+.user {
+  font-size: 15px;
+  text-align: center;
+  background-color: white;
+
+}
+
+.signIn {
+  background-color: white;
+  padding: 8px;
+  margin-top: 20px;
+  margin-left: 30%;
+  width: 40%;
+  height:300px;
+  border: 2px solid black;
+  border-radius:8px;
+  /* position: relative;
+  display: inline-block; */
+}
+
+.signIn p {
+  background-color: grey;
+  font-size: 30px;
+}
+
+.signIn a {
+  background-color: grey;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.signIn form {
+  text-align: center;
+  font-size: 20px;
+}
+
+.register {
+  font-size: 16px;
+}
+
+.main {
+  height: 100%;
+  width:100%;
+}
+
+.flex-container {
+  height: 90%;
+  /* padding-top: 50x; */
+  width: 100%;
+  display: flex;
+  flex-direction:column;
+  background: grey;
+  float:left;
+}
+
+.flex-container > div {
+
+  background-color: white;
+  width: 97%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+#for-admin {
+  font-size: 16px;
+}
+
+
+table {
+  padding: 10% 0 0;
+  margin:auto;
+  border-collapse: collapse;
+  /* width: 100%; */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+footer {
+  padding-top: 10px;
+  margin-top: 20px;
+  height: 50px;
+  background-color:white;
+  text-align: center;
+  /* border: 2px solid black; */
+}
+
+.navbar {
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+/* [class*="column"]{
+  float: left;
+  background-color: rgb(243, 189, 243);
+  padding: 20px 25px 0px 20px;
+  height: 250px;} */
+
+ .navigation {
+   text-align: center;
+}
+
+.makeSearch {
+  margin-left: 40%;
+  margin:auto;
+  max-width:300px
+}
+
+
+body ul{
+  margin: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+form.makeSearch input[type=text] {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid black;
+      float: left;
+      /* width: 80%; */
+      background: white;
+  }
+
+  form.makeSearch button {
+      float: none;
+      width: 2%;
+      padding: 10px;
+      background: purple;
+      color: white;
+      font-size: 16px;
+      border: 1px solid black;
+      border-left: none;
+      cursor: pointer;
+  }
+
+  form.makeSearch button:hover {
+      background: #0b7dda;
+  }
+
+  form.makeSearch::after {
+      content: "";
+      clear: both;
+      display: table;
+  }
+/* Dropdown button */
+/* .dropbutton {
+  background-color: green;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+} */
+
+/* needed to position the dropdown content */
+
+
+
+/* dropdown contetnt */
+/* .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+/* Links inside the dropdown */
+/* .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} */
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+/* .dropdown:hover .dropdown-content {display: block;} */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
+
+/* .aside {
+  float: left;
+} */
+
+/* for admin and attendant */
