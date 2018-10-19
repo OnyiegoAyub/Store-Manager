@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
     background-color:#f1f1f1;
@@ -13,6 +12,7 @@ body {
 }
 
 .biz-name {
+  padding-left: 20px;
   height: 70px;
   font-size: 20px;
   background-color: grey;
@@ -95,13 +95,22 @@ form.makeSearch input[type=text] {
 
  .signIn {
    background-color: white;
-   padding: 8px;
+   padding: 5px;
    margin-top: 20px;
-   margin-left: 40%;
-   width: 40%;
+   margin-left: 30%;
+   width: 60%;
    height:300px;
    border: 2px solid black;
    border-radius:8px;
+ }
+
+ .signIn a {
+   background-color: grey;
+     color: white;
+     padding: 3px 3px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
  }
 
 table {
@@ -109,6 +118,10 @@ table {
   margin:auto;
   border-collapse: collapse;
   /* width: 90%;  */
+}
+
+th {
+  background-color: blue;
 }
 
 th, td {
